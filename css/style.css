@@ -1,0 +1,75 @@
+body {
+  background:url('http://"background.png.com/500/200') l
+  background-repeat: no-repeat; 
+}
+
+.site_wrap {
+	width: 85%;
+  	margin: 0 auto;
+	background-color: rgba(127, 134, 104, .50);
+	padding: 0.6em;
+	overflow: hidden;
+}
+
+.branding {
+	text-align: center;
+}
+
+
+.site_nav {
+		
+		text-align: center;
+		line-height: 2.75em;
+		border-radius: 6px;	
+		background-color: rgba(173, 173, 143, .70);
+		padding: 0.5em;
+	}
+
+
+		.site_nav li {
+		display: inline-block;
+	}
+	
+	.site_nav li + li {
+		margin-top: 0;
+		margin-left: 1em;
+	}
+	
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  padding: 20px;
+  
+}
+
+.map-wrap {
+	position: relative;
+	padding-top: 75%;
+}
+
+.map-wrap iframe {
+	position: absolute;
+	top: 0;
+	left: 0; 
+	width: 60%; 
+	height: 40%;
+}
+
+.site_footer {
+
+}
+
+@media screen and (max-width: 29.9em) {
+
+	.site_footer .map {
+		display: absolute;
+	}
+
+
+
+
+
+
+
+
