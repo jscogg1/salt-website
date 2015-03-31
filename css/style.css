@@ -1,7 +1,30 @@
-body {
-  background:url('http://"background.png.com/500/200') l
-  background-repeat: no-repeat; 
+.footer {
+	float: right; 
+	color: #0a2240;
 }
+
+.site_header {
+	text-align: center; 
+}
+
+.site_footer {
+	font-family: 'Poiret One', cursive;
+}
+
+.information {
+	float: left; 
+}
+
+
+div {
+  background-image: url("background.png");
+  background-position: 20px 10px;  
+  background-repeat: no-repeat;
+  
+}
+
+
+
 
 .site_wrap {
 	width: 85%;
@@ -16,13 +39,16 @@ body {
 }
 
 
+
+
 .site_nav {
-		
+		font-family: 'Poiret One', cursive;
 		text-align: center;
-		line-height: 2.75em;
+		line-height: 3em;
 		border-radius: 6px;	
 		background-color: rgba(173, 173, 143, .70);
 		padding: 0.5em;
+		
 	}
 
 
@@ -37,38 +63,46 @@ body {
 	
 
 .container {
-  width: 85%;
-  margin: 0 auto;
-  padding: 20px;
-  
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: 'Poiret One', cursive; color: #220c04; 
 }
 
-.map-wrap {
+h2 {
+	color: #0a2240;
+}
+
+a:link {
+color: #220c04;
+}
+
+
+
+.map-wrap { 
 	position: relative;
 	padding-top: 75%;
 }
 
-.map-wrap iframe {
+.map-wrap iframe { 
 	position: absolute;
 	top: 0;
 	left: 0; 
-	width: 60%; 
-	height: 40%;
+	width: 80%; 
+	height: 60%;
 }
 
-.site_footer {
 
-}
 
 @media screen and (max-width: 29.9em) {
 
 	.site_footer .map {
 		display: absolute;
+		
 	}
-
-
-
-
+	
+	
 
 
 
